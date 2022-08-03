@@ -1,0 +1,4 @@
+{
+    "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+    "rust-analyzer.server.path": "/nix/store/zs0qbb9wklx8vca39bchirwwdjw5ssfh-rust-analyzer-nightly-1c03f45/bin/rust-analyzer"
+}
