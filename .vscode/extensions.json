@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        // manages env variables based on current directory
+        "mkhl.direnv",
+
+        // provides highlighting and formatting for *.nix files
+        "jnoortheen.nix-ide",
+
+        // configures VSCodium to use the env direnv sets
+        "arrterian.nix-env-selector"
+    ]
+}

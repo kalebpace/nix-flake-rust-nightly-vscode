@@ -1,4 +1,8 @@
 {
     "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+
+    // HACK: Currently do not have a way to tell vscode where the rust-analyzer extension is located since each package has its own path.
+    // Running the below will give you the rust-analyzer path for your specific environment
+    // >$ which rust-analyzer 
     "rust-analyzer.server.path": "/nix/store/zs0qbb9wklx8vca39bchirwwdjw5ssfh-rust-analyzer-nightly-1c03f45/bin/rust-analyzer"
 }
