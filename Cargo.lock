@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "cosmopolitan-wasm"
+name = "nix-flake-rust-nightly-vscode"
 version = "0.1.0"

@@ -10,7 +10,7 @@
     # flake-utils helps us remove cross-platform boilerplate
     utils.url = "github:numtide/flake-utils";
 
-    # provides a nix 'overlay' with the nightly rust toolchain.
+    # Provides a nix 'overlay' with the nightly rust toolchain.
     # Per the project's description, it aims to replace rustup usage
     # in flake-based projects. Also ships with rust-analyzer-nightly
     fenix.url = "github:nix-community/fenix";
@@ -18,7 +18,7 @@
 
   outputs = { self, nixpkgs, utils, fenix }:
 
-    # Define a system environment for your machine (e.g. )
+    # Define a system environment for your machine (e.g. system.x86_64-linux )
     utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { 
